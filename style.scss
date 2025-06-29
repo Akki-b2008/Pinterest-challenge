@@ -79,6 +79,7 @@ body {
 
 .main {
   width: 100%;
+  max-width: 1790px;
   height: 100%;
   background-color: #fff8d4;
   overflow-x: hidden;
@@ -87,8 +88,8 @@ body {
     background: url("assets/WavyPattern.png");
     width: 100%;
     height: 120vh;
+    max-height: 800px;
     position: relative;
-
 
     .hero-title-1 {
       width: 100%;
@@ -119,8 +120,8 @@ body {
     .hero-img {
       position: absolute;
       bottom: 0px;
-      width: 52rem;
-      left: 22%;
+      width: 48rem;
+      left: 27%;
     }
 
     .bottom-sec {
@@ -207,11 +208,10 @@ body {
   }
 
   .value-section {
-    width: 100%;
     height: 100vh;
     padding: 5rem;
+    max-height: 800px;
     position: relative;
- 
 
     .value-title {
       font-size: 22rem;
@@ -228,7 +228,6 @@ body {
     .value-subtitle {
       font-size: 8rem;
       padding-top: 2rem;
-      width: 56%;
       line-height: 110px;
       font-family: "Robuck Regular";
       font-weight: 100;
@@ -243,14 +242,14 @@ body {
       width: 100%;
       position: absolute;
       left: 40%;
-      top: 44%;
+      top: 41%;
       z-index: 1000;
       transform: rotate(4deg);
 
       img {
         border-radius: 20px;
         width: 600px;
-        height: 250px;
+        height: 300px;
       }
     }
 
@@ -289,10 +288,9 @@ body {
   }
 
   .section-3 {
-    width: 100%;
     height: 100vh;
+    max-height: 800px;
     padding: 3rem 5rem 0 5rem;
-  
 
     .section-3-cards {
       display: flex;
@@ -330,7 +328,6 @@ body {
     width: 100%;
     height: 100vh;
     margin-bottom: 3rem;
- 
 
     .top-sec {
       .top-sec-info {
@@ -478,7 +475,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
 
     .hr {
       height: 1px;
@@ -674,32 +670,137 @@ body {
         }
       }
     }
+
+    .footer-right {
+      width: 15%;
+
+      .img {
+        display: flex;
+        justify-content: flex-end;
+
+        width: 100%;
+        img {
+          width: 80%;
+        }
+      }
+
+      .footer-right-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 1.5rem;
+        gap: 2rem;
+        margin-top: 5rem;
+
+        p {
+          opacity: 0.7;
+          font-family: "helvetica";
+        }
+      }
+    }
   }
-  .footer-right {
-    width: 15%;
+}
 
-    .img {
-      display: flex;
-      justify-content: flex-end;
+@media (min-width: 1600px) {
+  .main {
+    .hero-section {
+      max-height: 870px;
+      .hero-title-1 {
+        font-size: 22rem;
+        margin-top: 6rem;
+      }
 
-      width: 100%;
-      img {
-        width: 80%;
+      .hero-title-2 {
+        font-size: 17rem;
+      }
+
+      .hero-img {
+        width: 50rem;
+        left: 25%;
+      }
+
+      .bottom-sec {
+        bottom: -5%;
+        left: 5%;
       }
     }
 
-    .footer-right-links {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      padding-right: 1.5rem;
-      gap: 2rem;
-      margin-top: 5rem;
+  //   .value-section {
+   
 
-      p {
-        opacity: .7;
-        font-family: "helvetica";
-      }
-    }
+  //   .value-title {
+  //     font-size: 25rem;
+  //     font-family: "Robuck Regular";
+  //     font-weight: 100;
+  //     color: #f6e9b3d4;
+  //     position: absolute;
+  //     right: 8%;
+  //     top: 5%;
+  //     z-index: 100;
+  //     transform: scale(1.3, 1.1);
+  //   }
+
+  //   .value-subtitle {
+  //     font-size: 8rem;
+  //     padding-top: 2rem;
+  //     width: 56%;
+  //     line-height: 110px;
+  //     font-family: "Robuck Regular";
+  //     font-weight: 100;
+  //     z-index: 999;
+  //     position: relative;
+  //     span {
+  //       color: rgb(250, 101, 46);
+  //     }
+  //   }
+
+  //   .img {
+  //     width: 100%;
+  //     position: absolute;
+  //     left: 40%;
+  //     top: 41%;
+  //     z-index: 1000;
+  //     transform: rotate(4deg);
+
+  //     img {
+  //       border-radius: 20px;
+  //       width: 600px;
+  //       height: 300px;
+  //     }
+  //   }
+
+  //   .value-features {
+  //     width: 36%;
+  //     display: flex;
+  //     flex-direction: column;
+  //     padding: 1rem;
+
+  //     .feature {
+  //       display: flex;
+  //       align-items: center;
+  //       gap: 1rem;
+  //       padding: 1rem;
+  //       font-family: "helvetica";
+  //     }
+
+  //     i {
+  //       color: orangered;
+  //       font-size: 2rem;
+  //     }
+  //   }
+
+  //   .value-description {
+  //     position: absolute;
+  //     right: 20%;
+  //     bottom: 2%;
+  //     width: 40%;
+  //     font-family: "helvetica";
+  //     line-height: 25px;
+
+  //     p {
+  //       font-weight: 600;
+  //     }
+  //   }
+  // }
   }
 }
