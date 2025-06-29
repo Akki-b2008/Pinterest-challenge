@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Robuck Rounded";
-  src: url("assets/fonts/robuckrounded.otf");
   font-family: "Robuck Regular";
-  src: url("assets/fonts/robuckregular.otf");
+  src: url("assets/fonts/robuckregular.otf") format("opentype");
+}
+@font-face {
   font-family: "Palo";
-  src: url("assets/fonts/palocompressedbold.otf");
+  src: url("assets/fonts/palocompressedbold.otf") format("opentype");
 }
 * {
   margin: 0;
