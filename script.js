@@ -58,3 +58,4 @@ document.addEventListener("dblclick", () => {
     document.documentElement.msRequestFullscreen();
   }
 });
+

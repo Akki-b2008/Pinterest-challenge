@@ -326,9 +326,9 @@ body {
 
   .section-4 {
     padding: 3rem 5rem;
-    width: 100%;
     height: 100vh;
     margin-bottom: 3rem;
+    max-height: 700px;
 
     .top-sec {
       .top-sec-info {
@@ -473,6 +473,7 @@ body {
     padding: 4rem 3rem;
     margin-top: 5rem;
     height: 100vh;
+    max-height: 800px;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
